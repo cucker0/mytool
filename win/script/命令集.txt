@@ -1,0 +1,9 @@
+windows获取远端服务器时间
+
+net time \\IP
+或net time \\computername
+
+
+windows从远端服务器同步时间
+
+net time \\远端服务器IP /SET /Y
